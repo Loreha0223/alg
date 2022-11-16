@@ -13,7 +13,7 @@ int main() {
 		for (int j = i; j < n; j++) {
 			sum += j;
 			if (sum > n) break;
-			else if (sum == n) { cnt++; cout << i; }
+			else if (sum == n) cnt++;
 		}
 	}
 	cout << cnt;
