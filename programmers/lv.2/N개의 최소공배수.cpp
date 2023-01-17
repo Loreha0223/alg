@@ -21,8 +21,6 @@ int main() {
 		int b = arr.back();
 		arr.pop_back();
 		arr.push_back(a * b / cal_gcd(a, b));
-		cout << arr.back() <<' '<<  arr.size() << '\n';
 	}
 	cout << arr[0];
-	
 }
