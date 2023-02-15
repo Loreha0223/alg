@@ -13,7 +13,6 @@ int dfs(int u){
     if(visited[u] == true && u!=R) return 0;
     for (int i=0; i<graph[u].size(); i++){
         int x = graph[u][i];
-        cout << u << ',' << i << ',' << x << '\n';
         if (!visited[x]) {
             visited[x]=cnt++;
             dfs(graph[u][i]);
